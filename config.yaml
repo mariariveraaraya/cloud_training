@@ -44,7 +44,7 @@ contact: 'team@carpentries.org' # FIXME
 # Example -------------
 #
 # episodes:
-# - introduction.md
+# - introduction.Rmd
 # - lesson1.md
 #
 # learners:
@@ -60,7 +60,8 @@ contact: 'team@carpentries.org' # FIXME
 # Order of episodes in your lesson
 episodes: 
 - introduction.Rmd
-- lesson1.Rmd
+- lesson1.md
+- lesson2.md
 
 # Information for Learners
 learners: 
