@@ -1,32 +1,53 @@
 ---
-title: "Physical and Logical Representation of Data"
+title: "Data Layers and Containers"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-1.	Understand the concept of physical storage of data.
-2.	Understand the concept of logical representation of data.
-3.	Understand the difference between physical storage and logical representation.
+1.	Understand the concept of data layers and their uses.
+2.	Understand the concept of containers and their function in storage accounts.
+3.	Understand the difference and relationship between different data layers and containers.
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-1. Define and explain the concept of physical storage using platform storage accounts as examples.
-2.	Define and explain the concept of logical representation using views in Synapse as examples.
-3.	Differentiate between files in their raw formats in physical storage and cleaned, wrangled files in logical representation.
+1.	Define and explain the concept of data layers in databases and their uses for organising and transforming data.
+2.	Define and explain the concept of containers in the context of storage accounts, and their role in separating data layers.
+3.	Clarify the difference and relationship between data layers and containers using practical examples.
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+## Data Layers
+In simple terms, data layers define different stages of data transformation. They represent the progression of raw data through various stages until it becomes useful for advanced analysis and reporting.
+The common data layers include:
+- userupload; for files that are manually uploaded
+- Raw: Original unprocessed records as received from source systems.
+- Landing: The layer where raw data first lands and initial validity checks may be applied.
+- Curated: A highly processed layer where data is cleansed, transformed, and prepared for analysis, equipped with necessary attributes and dimensions.
+  
+Each layer signifies a unique stage of data transformation, ensuring that data changes are traceable, thus maintaining data integrity across the system.
 
-### Physical Data Storage
-Physical data storage refers to the tangible means by which data is stored in digital form, on devices like hard drives, Flash storage, memory cards, DVDs, etc. When relating this to a storage account platform in the QESD Platform such as sboxlakedev, the data is physically stored as files within the cloud storage. These files are kept in containers, which form the primary component of the platform's data storage architecture. Data here is raw and untransformed, thus may require additional processing steps for optimal use.
+## Containers
+Containers primarily serve as the organisers in a storage account architecture. They can be perceived as virtual folders, each storing a distinct type of data or data at different transformation stages.
 
-### Logical Representation of Data
-Contrary to physical data storage, logical representation of data abstracts the underlying complexity of physical storage. It concerns the way data is perceived from a user's point of view, invariably hiding intricate lower-level details. For instance, in Synapse, users interact with a logical representation of the data - a structured, cleaned, and organised 'view' - rather than dealing directly with the physical storage. The underlying technology enables users to manipulate, search, and retrieve the data without needing extensive comprehension of how and where the data is physically stored.
+Containers facilitate separation of concerns, allowing each data layer to be managed individually. They simplify data access, collaboration, retrieval, and help in maintaining a well-structured, clean, and orderly storage system.
 
-![Physical vs logical data](/episodes/fig/physical_logical.PNG)
+## Relationship between Data Layers and Containers
+Containers and data layers closely interact in real-world data management. Containers often hold different data layers, aiding data classification, and efficient access.
+
+For instance, assume three containers named 'raw', 'landing', and 'curated'. The 'raw' container houses the raw data, 'landing' has the data after primary validity checks, while 'curated' contains the cleaned, wrangled data, ready for analysis. This demonstrates how containers embody different data layers, maintaining an orderly process flow and easy retrieval.
+
+Due to the processing undertaken at every layer, analysts often engage with the 'curated' layer predominantly because the data is already clean, wrangled, and optimised for analysis.
+
+To summarise, the relationship between containers and data layers is of organisation and efficiency. Containers hold the data layers, maintaining an optimal transformation chain, while data layers encapsulate varying degrees of data transformation, enabling the systematic conversion of raw data into actionable insights.
+
+
+
+![Physical vs logical data](/episodes/fig/data_layers.PNG)
 
 ### Comparing Physical and Logical Representations
 
@@ -53,12 +74,11 @@ associated with the lessons. They appear in the "Instructor View"
 
 ## Challenge 1: Physical vs logical?
 
-1.	What does physical storage, as mentioned in the transcript, refer to in the context of data management? 
-
-- a) The logical representation of data 
-- b) The actual files stored in a storage account 
-- c) Data transformation process 
-- d) Data analysis and manipulation tools
+What characterizes the curated data layer? 
+- a) It only includes the logical component 
+- b) It only includes the physical component 
+- c) It may contain both the physical file and logical representation 
+- d) It includes neither the physical nor the logical component
 
 
 
@@ -66,9 +86,9 @@ associated with the lessons. They appear in the "Instructor View"
 
 ## Output
  
-The actual files stored in a storage account
+c) It may contain both the physical file and logical representation
 
-:::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
