@@ -45,7 +45,7 @@ contact: 'team@carpentries.org' # FIXME
 #
 # episodes:
 # - introduction.md
-# - lesson1.Rmd
+# - lesson1.md
 #
 # learners:
 # - setup.md
