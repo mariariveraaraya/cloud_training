@@ -71,6 +71,7 @@ associated with the lessons. They appear in the "Instructor View"
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
+
 - a) Physical storage is the process of transforming data, while logical representation refers to the actual files. 
 - b) Physical storage involves storing different file formats, while logical representation refers to the folders and containers. 
 - c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed. 
