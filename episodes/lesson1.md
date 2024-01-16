@@ -67,9 +67,7 @@ associated with the lessons. They appear in the "Instructor View"
 
  The actual files stored in a storage account
 
-:::::
-
-::::::::::::::::::::::::::::::::: challenge
+:::::::::::::::
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
@@ -83,4 +81,5 @@ associated with the lessons. They appear in the "Instructor View"
 
 d) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
-:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::
+::::::::::::::::::::::
