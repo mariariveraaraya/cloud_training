@@ -59,7 +59,7 @@ Think of physical representation as the warehouse storing boxes of raw materials
 
 Remember that comprehending both concepts is vital in understanding data management as a whole. They form the building blocks of data storage; understanding their synergy will guide you in leveraging the power of data effectively and efficiently.
 
-
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
