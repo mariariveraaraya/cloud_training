@@ -45,7 +45,7 @@ Due to the processing undertaken at every layer, analysts often engage with the 
 
 To summarise, the relationship between containers and data layers is of organisation and efficiency. Containers hold the data layers, maintaining an optimal transformation chain, while data layers encapsulate varying degrees of data transformation, enabling the systematic conversion of raw data into actionable insights.
 
-![Data layers](https://github.com/mariariveraaraya/cloud_training/blob/main/episodes/fig/data_layers.PNG)
+![Data layers](episodes/fig/data_layers.PNG)
 
 ### Comparing Physical and Logical Representations
 
@@ -92,7 +92,7 @@ c) It may contain both the physical file and logical representation
 - b) Physical storage involves storing different file formats, while logical representation refers to the folders and containers. 
 - c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed. 
 - d) Physical storage is used for data wrangling, while logical representation is used for data cleaning.
-- 
+  
 :::::::::::::::::::::::: solution 
 
 c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
