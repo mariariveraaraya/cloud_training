@@ -63,7 +63,8 @@ associated with the lessons. They appear in the "Instructor View"
 
  The actual files stored in a storage account
 
- :::::::::::::::::::::::: challenge
+
+:::::::::::::::::::::::: challenge
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
