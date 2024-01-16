@@ -64,6 +64,8 @@ associated with the lessons. They appear in the "Instructor View"
 
 
  The actual files stored in a storage account
+ 
+ ::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::: challenge
 
