@@ -84,7 +84,7 @@ What characterizes the curated data layer?
  
 c) It may contain both the physical file and logical representation
 
-:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::: challenge
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
@@ -98,5 +98,5 @@ c) It may contain both the physical file and logical representation
 c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
 :::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+
 
