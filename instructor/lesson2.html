@@ -319,27 +319,7 @@ of organisation and efficiency. Containers hold the data layers,
 maintaining an optimal transformation chain, while data layers
 encapsulate varying degrees of data transformation, enabling the
 systematic conversion of raw data into actionable insights.</p>
-<figure><img src="https://github.com/mariariveraaraya/cloud_training/blob/main/episodes/fig/data_layers.PNG" alt="" class="figure mx-auto d-block"><figcaption>Data layers</figcaption></figure><div class="section level3">
-<h3 id="comparing-physical-and-logical-representations">Comparing Physical and Logical Representations<a class="anchor" aria-label="anchor" href="#comparing-physical-and-logical-representations"></a></h3>
-<p>Physical and logical data representations stand as complementary
-aspects of data storage and management.</p>
-<p>Physical storage pertains to raw data files kept on some hardware or
-cloud-based platform. It does not concern itself with data’s
-meaningfulness or organisation - it’s fundamentally about ensuring data
-is stored, intact and accessible when required.</p>
-<p>On the other hand, logical representation is about bringing ‘sense’
-and ‘meaning’ to that stored data. It presents the data in an organised,
-often simplified form, making it easy for users to interact with and
-utilise the data.</p>
-<p>Think of physical representation as the warehouse storing boxes of
-raw materials (data), and the logical representation as the display in a
-store - sorted, arranged, and ready for consumers (users) to browse and
-purchase.</p>
-<p>Remember that comprehending both concepts is vital in understanding
-data management as a whole. They form the building blocks of data
-storage; understanding their synergy will guide you in leveraging the
-power of data effectively and efficiently.</p>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<figure><img src="../fig/data_layers.PNG" alt="" class="figure mx-auto d-block"><figcaption>Data layers</figcaption></figure><div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">
@@ -354,19 +334,25 @@ View”</p>
 </div>
 </div>
 </div>
-<div id="challenge-1-physical-vs-logical" class="callout challenge">
+<div id="challenge-1-what-characterizes-the-curated-data-layer" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="challenge-1-physical-vs-logical" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Physical vs logical?<a class="anchor" aria-label="anchor" href="#challenge-1-physical-vs-logical"></a>
+<div id="challenge-1-what-characterizes-the-curated-data-layer" class="callout-inner">
+<h3 class="callout-title">Challenge 1: What characterizes the curated
+data layer?<a class="anchor" aria-label="anchor" href="#challenge-1-what-characterizes-the-curated-data-layer"></a>
 </h3>
 <div class="callout-content">
-<p>What characterizes the curated data layer? - a) It only includes the
-logical component - b) It only includes the physical component - c) It
-may contain both the physical file and logical representation - d) It
-includes neither the physical nor the logical component</p>
-</div>
+<ul><li><ol style="list-style-type: lower-alpha"><li>It only includes the logical component</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: lower-alpha"><li>It only includes the physical component</li>
+</ol></li>
+<li><ol start="3" style="list-style-type: lower-alpha"><li>It may contain both the physical file and logical
+representation</li>
+</ol></li>
+<li><ol start="4" style="list-style-type: lower-alpha"><li>It includes neither the physical nor the logical component</li>
+</ol></li>
+</ul></div>
 </div>
 </div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
@@ -382,39 +368,42 @@ representation</li>
 </div>
 </div>
 </div>
-<div id="challenge-2-what-is-the-difference-between-physical-storage-and-logical-representation-of-data" class="callout discussion">
+<div id="challenge-2-where-can-the-views-which-can-be-consumed-be-located-in-azure" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="challenge-2-what-is-the-difference-between-physical-storage-and-logical-representation-of-data" class="callout-inner">
-<h3 class="callout-title">Challenge 2: What is the difference between
-physical storage and logical representation of data?<a class="anchor" aria-label="anchor" href="#challenge-2-what-is-the-difference-between-physical-storage-and-logical-representation-of-data"></a>
+<div id="challenge-2-where-can-the-views-which-can-be-consumed-be-located-in-azure" class="callout-inner">
+<h3 class="callout-title">Challenge 2: Where can the views which can be
+consumed be located in Azure?<a class="anchor" aria-label="anchor" href="#challenge-2-where-can-the-views-which-can-be-consumed-be-located-in-azure"></a>
 </h3>
 <div class="callout-content">
-<ul><li><ol style="list-style-type: lower-alpha"><li>Physical storage is the process of transforming data, while logical
-representation refers to the actual files.</li>
+<ul><li><ol style="list-style-type: lower-alpha"><li>In Synapse</li>
 </ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha"><li>Physical storage involves storing different file formats, while
-logical representation refers to the folders and containers.</li>
+<li><ol start="2" style="list-style-type: lower-alpha"><li>In the Sandbox Lake Production storage account</li>
 </ol></li>
-<li><ol start="3" style="list-style-type: lower-alpha"><li>Physical storage is the raw format of files, while logical
-representation provides a view that can be accessed and analyzed.</li>
+<li><ol start="3" style="list-style-type: lower-alpha"><li>In a rawview</li>
 </ol></li>
-<li><ol start="4" style="list-style-type: lower-alpha"><li>Physical storage is used for data wrangling, while logical
-representation is used for data cleaning.</li>
+<li><ol start="4" style="list-style-type: lower-alpha"><li>In the Sandbox resource group</li>
 </ol></li>
-<li>:::::::::::::::::::::::: solution</li>
-</ul><ol start="3" style="list-style-type: lower-alpha"><li>Physical storage is the raw format of files, while logical
-representation provides a view that can be accessed and analyzed.</li>
+</ul></div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<ol style="list-style-type: lower-alpha"><li>In Synapse</li>
 </ol></div>
 </div>
 </div>
-<p>::::::::::::::::::::::::::::::::::::::::::::::::</p>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/lesson1.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
