@@ -58,13 +58,11 @@ associated with the lessons. They appear in the "Instructor View"
 - c) Data transformation process 
 - d) Data analysis and manipulation tools
 
-::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::::::: solution 
 
 
  The actual files stored in a storage account
- 
+
  ::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::: challenge
@@ -80,4 +78,5 @@ associated with the lessons. They appear in the "Instructor View"
 
 d) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
+:::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::
