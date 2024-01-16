@@ -86,8 +86,6 @@ c) It may contain both the physical file and logical representation
 
 ::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: challenge
-
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
 - a) Physical storage is the process of transforming data, while logical representation refers to the actual files. 
