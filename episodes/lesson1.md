@@ -81,10 +81,3 @@ associated with the lessons. They appear in the "Instructor View"
 d) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
 :::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
