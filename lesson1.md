@@ -15,8 +15,8 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::: objectives
 
 1. Define and explain the concept of physical storage using platform storage accounts as examples.
-2.	Define and explain the concept of logical representation using views in Synapse as examples.
-3.	Differentiate between files in their raw formats in physical storage and cleaned, wrangled files in logical representation.
+2. Define and explain the concept of logical representation using views in Synapse as examples.
+3. Differentiate between files in their raw formats in physical storage and cleaned, wrangled files in logical representation.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -26,7 +26,7 @@ Physical data storage refers to the tangible means by which data is stored in di
 ### Logical Representation of Data
 Contrary to physical data storage, logical representation of data abstracts the underlying complexity of physical storage. It concerns the way data is perceived from a user's point of view, invariably hiding intricate lower-level details. For instance, in Synapse, users interact with a logical representation of the data - a structured, cleaned, and organised 'view' - rather than dealing directly with the physical storage. The underlying technology enables users to manipulate, search, and retrieve the data without needing extensive comprehension of how and where the data is physically stored.
 
-![Physical vs logical data](https://github.com/mariariveraaraya/cloud_training/blob/main/episodes/fig/physical_logical.PNG)
+![Physical vs logical data](fig/physical_logical.PNG)
 
 ### Comparing Physical and Logical Representations
 
@@ -64,74 +64,22 @@ associated with the lessons. They appear in the "Instructor View"
 
 :::::::::::::::::::::::: solution 
 
-## Output
- 
-The actual files stored in a storage account
 
-:::::::::::::::::::::::::::::::::
+ The actual files stored in a storage account
+
+:::::::::::::::
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
+
 - a) Physical storage is the process of transforming data, while logical representation refers to the actual files. 
 - b) Physical storage involves storing different file formats, while logical representation refers to the folders and containers. 
 - c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed. 
 - d) Physical storage is used for data wrangling, while logical representation is used for data cleaning.
-- 
+  
 :::::::::::::::::::::::: solution 
 
-Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
+d) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can also include figures generated from R Markdown:
-
-```{r pyramid, fig.alt = "pie chart illusion of a pyramid", fig.cap = "Sun arise each and every morning"}
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
-
-Or you can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
+::::::::::::::::::::::
+::::::::::::::::::::::

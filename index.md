@@ -2,13 +2,11 @@
 site: sandpaper::sandpaper_site
 ---
 
-# Welcome!
-
 This course provides an in-depth look at the cloud data management principles applied in the QESD Platform. The following sections provide an overview:
 
 1. **Physical and Logical Representation of Data**: This refers to the system's ability to store actual files within a storage account and logically represent them in a viewing platform such as Synapse.
 
-2.** Data Layers and Containers**: The platform uses data layers and containers to organise databases based on the level of transformation they have undergone after ingestion from their original format.
+2.**Data Layers and Containers**: The platform uses data layers and containers to organise databases based on the level of transformation they have undergone after ingestion from their original format.
 
 3. **Working Environments**: Four working environments, namely development, testing, production and exceptions have been designed to cater to different user needs and activities.
 
