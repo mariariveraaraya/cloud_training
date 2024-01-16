@@ -45,9 +45,7 @@ Due to the processing undertaken at every layer, analysts often engage with the 
 
 To summarise, the relationship between containers and data layers is of organisation and efficiency. Containers hold the data layers, maintaining an optimal transformation chain, while data layers encapsulate varying degrees of data transformation, enabling the systematic conversion of raw data into actionable insights.
 
-
-
-![Physical vs logical data](/episodes/fig/data_layers.PNG)
+![Data layers](https://github.com/mariariveraaraya/cloud_training/blob/main/episodes/fig/data_layers.PNG)
 
 ### Comparing Physical and Logical Representations
 
@@ -83,8 +81,6 @@ What characterizes the curated data layer?
 
 
 :::::::::::::::::::::::: solution 
-
-## Output
  
 c) It may contain both the physical file and logical representation
 
@@ -99,59 +95,8 @@ c) It may contain both the physical file and logical representation
 - 
 :::::::::::::::::::::::: solution 
 
-Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
+c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
-
-You can also include figures generated from R Markdown:
-
-```{r pyramid, fig.alt = "pie chart illusion of a pyramid", fig.cap = "Sun arise each and every morning"}
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
-
-Or you can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
