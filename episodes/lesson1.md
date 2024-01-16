@@ -26,7 +26,7 @@ Physical data storage refers to the tangible means by which data is stored in di
 ### Logical Representation of Data
 Contrary to physical data storage, logical representation of data abstracts the underlying complexity of physical storage. It concerns the way data is perceived from a user's point of view, invariably hiding intricate lower-level details. For instance, in Synapse, users interact with a logical representation of the data - a structured, cleaned, and organised 'view' - rather than dealing directly with the physical storage. The underlying technology enables users to manipulate, search, and retrieve the data without needing extensive comprehension of how and where the data is physically stored.
 
-![Physical vs logical data](episodes/fig/physical_logical.PNG)
+![Physical vs logical data](fig/physical_logical.PNG)
 
 ### Comparing Physical and Logical Representations
 
