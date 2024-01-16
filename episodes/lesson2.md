@@ -48,8 +48,6 @@ To summarise, the relationship between containers and data layers is of organisa
 ![Data layers](fig/data_layers.PNG)
 
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Inline instructor notes can help inform instructors of timing challenges
