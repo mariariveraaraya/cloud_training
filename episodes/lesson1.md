@@ -40,6 +40,8 @@ Think of physical representation as the warehouse storing boxes of raw materials
 
 Remember that comprehending both concepts is vital in understanding data management as a whole. They form the building blocks of data storage; understanding their synergy will guide you in leveraging the power of data effectively and efficiently.
 
+
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 Inline instructor notes can help inform instructors of timing challenges
@@ -58,13 +60,14 @@ associated with the lessons. They appear in the "Instructor View"
 - c) Data transformation process 
 - d) Data analysis and manipulation tools
 
+
+
 :::::::::::::::::::::::: solution 
 
 
  The actual files stored in a storage account
 
-
-:::::::::::::::::::::::: challenge
+:::::::::::::::::::::::::::::::::
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
