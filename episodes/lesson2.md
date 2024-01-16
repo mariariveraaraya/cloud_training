@@ -45,20 +45,7 @@ Due to the processing undertaken at every layer, analysts often engage with the 
 
 To summarise, the relationship between containers and data layers is of organisation and efficiency. Containers hold the data layers, maintaining an optimal transformation chain, while data layers encapsulate varying degrees of data transformation, enabling the systematic conversion of raw data into actionable insights.
 
-![Data layers](episodes/fig/data_layers.PNG)
-
-### Comparing Physical and Logical Representations
-
-Physical and logical data representations stand as complementary aspects of data storage and management.
-
-Physical storage pertains to raw data files kept on some hardware or cloud-based platform. It does not concern itself with data's meaningfulness or organisation - it's fundamentally about ensuring data is stored, intact and accessible when required.
-
-On the other hand, logical representation is about bringing 'sense' and 'meaning' to that stored data. It presents the data in an organised, often simplified form, making it easy for users to interact with and utilise the data.
-
-Think of physical representation as the warehouse storing boxes of raw materials (data), and the logical representation as the display in a store - sorted, arranged, and ready for consumers (users) to browse and purchase.
-
-Remember that comprehending both concepts is vital in understanding data management as a whole. They form the building blocks of data storage; understanding their synergy will guide you in leveraging the power of data effectively and efficiently.
-
+![Data layers](fig/data_layers.PNG)
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -70,9 +57,8 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Physical vs logical?
+## Challenge 1: What characterizes the curated data layer? 
 
-What characterizes the curated data layer? 
 - a) It only includes the logical component 
 - b) It only includes the physical component 
 - c) It may contain both the physical file and logical representation 
@@ -84,19 +70,20 @@ What characterizes the curated data layer?
  
 c) It may contain both the physical file and logical representation
 
-:::::::::::::::::::::::::::::::::::::
+::::::::::::::::
 
 
-## Challenge 2: What is the difference between physical storage and logical representation of data? 
-- a) Physical storage is the process of transforming data, while logical representation refers to the actual files. 
-- b) Physical storage involves storing different file formats, while logical representation refers to the folders and containers. 
-- c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed. 
-- d) Physical storage is used for data wrangling, while logical representation is used for data cleaning.
+## Challenge 2: Where can the views which can be consumed be located in Azure? 
+
+- a) In Synapse 
+- b) In the Sandbox Lake Production storage account 
+- c) In a rawview 
+- d) In the Sandbox resource group
   
 :::::::::::::::::::::::: solution 
 
-c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
+a) In Synapse 
 
 :::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
 

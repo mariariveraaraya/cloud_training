@@ -26,7 +26,7 @@ Physical data storage refers to the tangible means by which data is stored in di
 ### Logical Representation of Data
 Contrary to physical data storage, logical representation of data abstracts the underlying complexity of physical storage. It concerns the way data is perceived from a user's point of view, invariably hiding intricate lower-level details. For instance, in Synapse, users interact with a logical representation of the data - a structured, cleaned, and organised 'view' - rather than dealing directly with the physical storage. The underlying technology enables users to manipulate, search, and retrieve the data without needing extensive comprehension of how and where the data is physically stored.
 
-![Physical vs logical data](episodes/fig/physical_logical.PNG)
+![Physical vs logical data](fig/physical_logical.PNG)
 
 ### Comparing Physical and Logical Representations
 
@@ -67,10 +67,11 @@ associated with the lessons. They appear in the "Instructor View"
 
  The actual files stored in a storage account
 
-:::::::::::::::::::::::::::::::::
+:::::::::::::::
 
 
 ## Challenge 2: What is the difference between physical storage and logical representation of data? 
+
 - a) Physical storage is the process of transforming data, while logical representation refers to the actual files. 
 - b) Physical storage involves storing different file formats, while logical representation refers to the folders and containers. 
 - c) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed. 
@@ -80,4 +81,5 @@ associated with the lessons. They appear in the "Instructor View"
 
 d) Physical storage is the raw format of files, while logical representation provides a view that can be accessed and analyzed.
 
-:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::
+::::::::::::::::::::::
