@@ -69,7 +69,7 @@ a) Ability to hold raw data in its native format
 - d) A bouncing cell? 
 
 
-  :::::::::::::::::::::::: solution 
+:::::::::::::::::::::::: solution 
 
 b) A file
 
