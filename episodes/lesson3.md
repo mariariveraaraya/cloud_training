@@ -6,19 +6,18 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-1.	Understand the concept of data layers and their uses.
-2.	Understand the concept of containers and their function in storage accounts.
-3.	Understand the difference and relationship between different data layers and containers.
+1. What are working environments?
+2. How working environments can help me in my scientific workflow?
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-1.	Define and explain the concept of data layers in databases and their uses for organising and transforming data.
-2.	Define and explain the concept of containers in the context of storage accounts, and their role in separating data layers.
-3.	Clarify the difference and relationship between data layers and containers using practical examples.
-
+1. Understand the concept of working environments and their purpose.
+2. Identify the different working environments available in the platform.
+3. Analyze the appropriate use of each environment based on the activities being carried out.
+4. Demonstrate familiarity with the services and workspaces available in each environment.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 ## Understanding the Concept of Working Environments
