@@ -33,7 +33,7 @@ source: 'https://github.com/mariariveraaraya/cloud_training/' # FIXME
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: '' # FIXME
 
 # Navigation ------------------------------------------------
 #
