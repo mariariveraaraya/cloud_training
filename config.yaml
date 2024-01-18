@@ -8,7 +8,7 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-#carpentry: 'incubator'
+carpentry: 'incubator'
 
 # Overall title for pages.
 title: 'Cloud fundamentals in the Queensland Environmental Science Data Platform (QESD)' # FIXME
